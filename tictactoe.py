@@ -58,8 +58,8 @@ def is_game_over(current_positions):
 
 def play_game():
     current_positions = {'top left': ' ', 'top center': ' ', 'top right': ' ',
-                         'center left': ' ', 'center': ' ', 'center right': '',
-                         'bottom left': ' ', 'bottom center': ' ', 'bottom right': ''}
+                         'center left': ' ', 'center': ' ', 'center right': ' ',
+                         'bottom left': ' ', 'bottom center': ' ', 'bottom right': ' '}
     current_player = 'X'
     result = False
 
